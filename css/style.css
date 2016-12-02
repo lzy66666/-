@@ -1,0 +1,77 @@
+*{padding: 0px;margin: 0px; list-style: none;font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;}
+body{background: #0c0c0c;color: #e2872c;font-size: 12px;}
+.pd0{padding: 0}
+.mr30{margin-right: 5%;}
+.cl{color: #e2872c}
+#header{width: 62%;height:100%;float: left;margin-left: 10px;margin-top: 5px;}
+#myCarousel{height: 400px;width: 100%;border: 1px solid #ccc;float: left;}
+#myCarousel a,#myCarousel img{width: 100%;height: 100%;display: block;}
+#header_r{width: 35%;height:100%;float: left;border-left: 1px solid #333;margin-top: 5px;}
+.btn_l,.btn_r{height: 40px;text-align: center;background: #232323;width: 50%;float: left;transition:all .3s ease-in-out;-webkit-transition:all .3s ease-in-out;-ms-transition:all .3s ease-in-out;-o-transition:all .3s ease-in-out;}
+.btn_l span,.btn_r span{line-height: 40px;color: #e2872c;}
+#header_r .active span{color: #fff;}
+#header_r .active{background: #e2872c;}
+.news{padding-top:15px;}
+.news ul li{list-style: none;padding: 2px 0;clear: both;overflow: hidden;}
+.news ul li p{margin:0;}
+.news li a{overflow: hidden;text-overflow: ellipsis;white-space: nowrap;width:52%;display: inline-block; line-height: 1.8;float: left;text-decoration: none;}
+.til{width: 19%;border: 1px solid #e2872c; text-align: center;line-height: 1.8;border-radius: 6px;display: inline-block;float: left;}
+.timer{display: inline-block;line-height: 1.8;float: right;}
+.more{display: inline-block;float: right;}
+.news .more a{color: #e2872c; width: auto;font-size: 12px;}
+.gameslist a{text-decoration: none;color: #e2872c;}
+.games{clear: both;}
+.newgames{width: 100%;overflow: hidden;}
+.g_nav{height: 30px;background: url(../image/newgames.png) no-repeat;margin: 10px 0;}
+.g_navhot{background: url(../image/hotgames.png) no-repeat;}
+.g_nav span{color: #fff;font-size: 15px;line-height: 30px;margin-left: 95px;font-weight: 700}
+.gamefirst{margin-left: 1px;}
+.gameslist{margin:0 1px;}
+.newlist{margin: 0;}
+.gameslist img{border: 1px solid #e2872c;width: 99%;height: 130px;}
+.gameslist p{line-height: 1;margin-top: 8px;text-align: center;font-size: 12px;}
+.lol{border-top: 1px solid #333;clear: both;width: 100%;overflow: hidden;}
+.lol img{width: 100%;height:400px;border: none;margin-top: 10px;}
+.lol a{text-decoration: none;}
+.wechat{width: 100%;border: 1px solid #e2872c;margin-top:20px;}
+.wecenter{overflow: hidden;padding-top: 20px;}
+.wechatimg img{width: 100px;height: auto;display: block;margin: 0 auto;}
+.wechatimg p{color: #e2872c;text-align: center;line-height: 1;margin-top: 15px;}
+.fr{float: right;}
+/*about swiper*/
+.swiper-container {width: 100%;height: 100%;margin: 0px auto;}
+.swiper-slide {text-align: center;background: #fff;display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;-webkit-box-pack: center;-ms-flex-pack: center;-webkit-justify-content: center;justify-content: center;-webkit-box-align: center;-ms-flex-align: center;-webkit-align-items: center;align-items: center;}
+.pagination {
+  position: absolute;
+  z-index: 20;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+.swiper-pagination-switch {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 8px;
+  background: #ccc;
+  margin: 0 5px;
+  opacity: 0.7;
+
+  cursor: pointer;
+}
+.swiper-active-switch {
+  background: #fff;
+  border: 1px solid #fff;
+}
+
+
+@media all and (min-width: 1600px){
+	body{font-size: 16px;}
+	#myCarousel{height: 500px;}
+	.news{padding-top: 25px;}
+	.news ul li{padding: 8px 0;}
+	.lol img{height: 430px;margin-top: 15px;}
+	.news .more a{font-size: 14px;}
+	.g_nav{margin: 20px 0;}
+	.gameslist{width:18% !important;margin: 0 7px;}
+}
